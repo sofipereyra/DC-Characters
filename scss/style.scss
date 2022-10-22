@@ -1,0 +1,9 @@
+@use './abstract/' as a;
+@use './components/' as c;
+@use './layout/' as l;
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}

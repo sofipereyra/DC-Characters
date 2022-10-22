@@ -1,0 +1,8 @@
+@use '../abstract/' as a;
+
+footer{
+    background-color: a.$bg-primary;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}

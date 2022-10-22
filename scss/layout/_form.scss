@@ -1,0 +1,76 @@
+@use '../abstract/' as a;
+main{
+    section{
+        background-color: a.$bg-primary;
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 10px;
+        border-radius: 30px;
+        border-style: none;
+        h1{
+            text-align: center;
+        }
+        p{
+            margin: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        form{
+            margin-left: 30px;
+            margin-right: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 300px;
+                input{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border-style: none;
+                    
+                }
+                .input{
+                    width: 240px;
+                }
+                textarea{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border-style: none;
+                }
+                select{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border-style: none;
+                }
+            }
+            hr{
+                margin: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            textarea{
+                margin-top: 20px;
+            }
+            #submit{
+                width: 200px;
+                background-color: a.$bg-secondary;
+                border-radius: 10px;
+                border-style: none;
+                padding: 15px;
+                margin-top: 12px;
+                font-weight: bold;
+                font-size: 22px;
+                position: relative;
+                left: -90px;
+            }
+        }
+    }
+} 

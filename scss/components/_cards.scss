@@ -1,0 +1,37 @@
+@use '../abstract/' as a;
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    article{
+        background-color: a.$shadow;
+        border-radius: 20px;
+        margin: 50px 0 70px 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        position: relative;
+        text-align: center;
+        width: 300px;
+        #perfil{
+            border-radius: 100px;
+            bottom: 60px;
+            position: relative;
+        }
+        h2{
+            position:relative;
+            bottom: 40px;
+        }
+        p{
+           margin: 0 10px 0 10px;
+        }
+        button{
+            background-color: a.$bg-primary;
+            border-radius: 10px;
+            border-style: none;
+            color:white;
+            margin: 30px 0 10px 0;
+            padding: 15px;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga de la justicia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <p>Descuentos 29%</p>
+        </section>
+        <section>
+            <a href="index.html">
+                <h1>DC Characters</h1>
+            </a>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+                <li>
+                    <a href="">Registrarme</a>
+                </li>
+                <li>
+                    <a href="">Ingresar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>¡Añadí tu super!</h1>
+            <p>Agregá tu personaje completando las opciones.</p>
+            <form action="" method="POST">
+                <div>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" id="nombre" class="input"><br>
+
+                    <label for="date">Fecha</label><br>
+                    <input type="date" id="date" class="input"><br>
+
+                    <textarea name="descripcion" id="" cols="30" rows="10" placeholder="Descripción"></textarea><br>
+                </div>
+                <div>
+                    <label for="especie">Especie</label><br>
+                    <select name="" id="especie" placeholder="Especie" class="input">
+                        <option value="especie">Especie</option>
+                        <option value="desconocido">Desconocido</option>
+                    </select><br>
+                    <label for="file">Agregar foto</label><br>
+                    <input type="file" id="file"><br>
+
+
+                    <label for="poderes">Poderes</label><br>
+                    <input type="checkbox" name="poderes" id="volar">
+                    <label for="volar">Volar</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="superinteligencia">
+                    <label for="superinteligencia">Superinteligencia</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="rayos-laser">
+                    <label for="rayos-laser">Vista de rayos laser</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="billetera-gorda">
+                    <label for="billetera-gorda">Billetera gorda</label><br>
+                    <hr>
+
+                    <label for="personajes">Tipos de personajes</label><br>
+                    <input type="radio" name="personajes" id="heroe">
+                    <label for="">Héroe/Heroína</label><br>
+                    <input type="radio" name="personajes" id="villano">
+                    <label for="">Villano/Villana</label><br>
+                    <input type="submit" value="Añadir">
+                </div>
+            </form>    
+        </section>
+    </main>
+    <footer>
+        Todos los derechos reservados FRONT END 1
+    </footer>
+</body>
+
+</html>
